@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <h1>ManchesterCodes Mortgages</h1>
+    <form id="mortgageForm">
+        <p>
+        <label for="amount">Amount to borrow: </label>
+        <input type="number" id="amount" min="50000" max="1000000" value="50000" />
+        </p>
+        <p>
+        <label for="paymentPeriodInYears">Repayment Period in years</label>
+        <input type="number" id="paymentPeriodInYears" min="5" max="20" value="5" />
+        </p>
+        <p id="mortgage-offer"></p>
+        <button>Calculate monthly repayment</button>
+    </form>
+</body>
+
+</html>
